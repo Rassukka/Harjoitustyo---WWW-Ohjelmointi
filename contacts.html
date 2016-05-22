@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<title>Harjoitustyo</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+  <script src="Bootstrap/js/maps.js"></script>
+  <script src="Bootstrap/js/jquery-1.12.1.js"></script>
+  <script src="Bootstrap/js/bootstrap.js"></script>
+  <script src="scriptit.js"></script>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body id="" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<!-- Navbaari -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"></button>
+      <a class="navbar-brand" href="index.html">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html#meistä" name="meistä">MEISTÄ</a></li>
+        <li><a href="index.html#yes" name="yes">TIETOA</a></li>
+        <li><a href="index.html#galleria" name="galleria">GALLERIA</a></li>
+        <li><a href="index.html#lisää" name="lisää">PALVELUT</a></li>
+        <li><a href="contacts.html">CONTACTS</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="bg-grey">
+  <br>
+  <br>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="col-sm-6">
+    <div id="googleMap"></div>
+  </div>
+  <div class="col-sm-6">
+    <div class="container-fluid">
+  <h2 class="text-center">OTA YHTEYTTÄ</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Lupaamme vastata 24-tunnin sisällä!</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> White House</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +3584324320</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> Yritys@yritys.com</p> 
+    </div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="nimi" name="nimi" placeholder="Nimesi" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="emaili" name="emaili" placeholder="E-maili" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="kommentti" name="kommentti" placeholder="Kommentti" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Lähetä</button>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div class="bg-grey">
+  <br>
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="social">
+    <div class="col-sm-10">
+      <ul>
+        <li>
+          <a href="http://twitter.com" class="kuvakeanim">
+          <img class="kuvakkeet" src="ionicon/src/social-twitter.svg" alt="Twitter!" width="50" height="50" border="0">
+          </a>
+        </li>
+        <li>
+           <a href="http://www.facebook.com" class="kuvakeanim"><img class="kuvakkeet" src="ionicon/src/social-facebook.svg"></a>
+        </li>
+        <li>
+           <a href="http://googleplus.com" class="kuvakeanim"><img class="kuvakkeet" src="ionicon/src/social-googleplus.svg"></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-sm-2">
+    <div class="text-right">
+      <a href="#" title="To da top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+       <br>
+      <p>IT9 Harjoitustyö Joona &#38; Rasmus<br>All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
