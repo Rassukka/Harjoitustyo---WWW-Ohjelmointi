@@ -1,7 +1,7 @@
-Dokumentointi IT9 kurssin harjoitustyöhön
+## IT9 kurssi harjoitustyö
 
 Työn on tenyt Rasmus Haavisto ja Joona Nikkola - Työtä on tehty kovasti kurssin
-alusta alkaen.
+alusta alkaen. Huomaa: Ensimmäinen "iso" nettisivu jota kumpikaan on työstänyt!
 
 ***********************************************************************************
 
